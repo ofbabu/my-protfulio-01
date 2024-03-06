@@ -11,10 +11,17 @@ body{
 a{
     text-decoration: none;
 }
+
+.br{
+    border: 2px solid red;
+}
+.br1{
+    border: 1px solid red;
+}
 .body-container{
     width: 100%;
 }
-.of-navber-container{
+.o-navber-container{
     display: flex;
     position: absolute;
     top: 0;
@@ -255,10 +262,68 @@ a{
 }
 
 
+/* Contract us  */
+.c-main-body{ //border: 2px solid red;
+    width: fit-content;
+    height: 100vh;
+    margin:  200px 0px 200px 400px ;
+    padding: 40px;
+}
+.contract-header{
+    width: fit-content;
+    height: fit-content;
+    color: rgb(229, 203, 11);
+    border-bottom : 5px solid rgb(248, 248, 247);
+    border-top : 5px solid rgb(251, 251, 249);
+    border-radius: 100px;
+    margin:250px 0;
+    padding: 10px;
+}
+.contract-iteams{
+    width: fit-content ;
+    height: 80vh;
+    border-left:5px solid rgb(10, 67, 188);
+    border-right:5px solid rgb(10, 67, 188);
+    border-radius: 100px;
 
+    margin:0 0 0 50px;
+    padding: 50px;
+}
+form{
+    margin: 0 0 0 150px;
+}
+.contract-iteams label{
+    //border: 2px solid red;
+    margin:25px 0 5px 0;
+    font-size: 18px;
+    color: aqua;
+}
+.contract-iteams input{
+    //border: 2px solid red;
+    //margin:25px 0 5px 0;
+    font-size: 14px;
+    width: 400px;
+    background-color: rgba(0,0,0,.1);
+    color: white;
+    text-align: center;
+    
+}
+.contract-iteams input:hover{
+    background-color: rgba(255,255,255,1);
+    color-interpolation-filters: black;
+    text-align: center;
+}
 
+.input-message{
+    height: 100px;
+}
+.send-input a:hover{
+    background-color: blueviolet;
+    color: #000;
+    border: 2px solid white;
+    font-size: 17px;
 
-
+}
 /* star footer */
 footer{
     display: block;
